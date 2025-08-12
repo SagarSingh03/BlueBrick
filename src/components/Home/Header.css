@@ -1,0 +1,48 @@
+ .header{
+    text-align: center;
+    margin-top: 9%;
+}
+
+.header h1{
+    margin-bottom: 8px;
+}
+
+.header p{
+    margin-top: 0;
+}
+
+h1{
+    font-size: 4rem;
+    color: #f6f4f4;
+}
+
+p{
+    font-size: 5rem; 
+     color: #f6f4f4;
+}
+
+
+ .button{
+    display: flex;
+    margin-left: 40%;
+    gap: 16px;
+}
+
+.projects{
+ background-color: transparent;
+ font-size: 2rem;
+ color: #fff;
+ border-radius: 10px;
+ padding: 8px;
+ border: rgb(12, 11, 11) solid;
+}
+
+.contact{
+    background-color: rgb(243, 67, 67);
+    font-size: 2rem;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+} 
+

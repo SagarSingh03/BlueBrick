@@ -1,0 +1,73 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  margin-top: 22%;
+}
+
+/* Left Side */
+.about-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.brand {
+  margin-top: 100px;
+  max-width: 700px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Right Side */
+.about-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Headings */
+.about-heading strong {
+  font-size: 2rem;
+  color: #2c3e50;
+  display: block;
+}
+
+.about-heading label {
+  font-size: 4rem;
+  color: #555;
+}
+
+.about-heading label:hover {
+  color: rgb(17, 112, 246);
+}
+
+/* Stats */
+.stats strong {
+  font-size: 2rem;
+  color: #0077ff;
+  display: block;
+}
+
+.stats p {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.paras p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+

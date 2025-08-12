@@ -1,0 +1,64 @@
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 10%;
+
+}
+
+.Testimonial-heading strong {
+  font-size: 2.5rem;
+}
+
+.Testimonial label {
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.Testimonial p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 5px;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.Testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  text-align: center;
+}
+
+.Testimonial-card:hover {
+  transform: translateY(-5px);
+
+}
+
+.person-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.rating-stars{
+  gap: 5px;
+}

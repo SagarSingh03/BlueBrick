@@ -1,0 +1,66 @@
+.project {
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 10%;
+}
+
+.project-heading {
+  align-items: center;
+  /* margin-top: 5%; */
+}
+
+.project-heading strong {
+  font-size: 2.5rem;
+}
+
+.project label {
+  font-size: 2.5rem;
+  border-bottom: 2px solid black;
+}
+
+.project-heading p{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0px ;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.project-cards{
+  display: flex;
+  margin-top: 2.5%;
+  gap: 2.5%;
+  margin: 2.5%;
+  padding: 1.5rem;
+}
+
+.project-arrows {
+  display: flex;
+  margin-left: 90%;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.project-arrows img{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(24, 174, 239, 0.1);
+}
+
+.arrow-icon{
+  padding: 0.45rem;
+  background-color: rgba(24, 174, 239, 0.1);
+}
+
+.project-card{
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.property-image{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}

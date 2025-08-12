@@ -1,0 +1,80 @@
+.Contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.contact-heading strong{
+    font-size: 2.5rem;
+}
+
+.contact-heading label{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.contact-heading p{
+    font-size: 2rem;
+    color: #6B7280;
+    text-align: center;
+    margin: 5px;
+}
+
+.form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form .text{
+    border-bottom: none;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+}
+
+.form .text-reply{
+    padding: 10px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.form .text-reply:focus {
+  border-color: #0d2bd8;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 100%;
+}
+
+.form textarea[placeholder="Message"] {
+  height: 200px; 
+}
+
+.text-reply[type="text"]::placeholder{
+    text-align: left;
+    vertical-align: top;
+}
+
+button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
