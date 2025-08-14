@@ -14,7 +14,7 @@
 }
 
 .footer-left h2 {
-  color: #ffffff;
+  color: #817a7a;
   font-size: 2.2rem;
   margin-bottom: 15px;
 }
@@ -30,7 +30,7 @@
 }
 
 .footer-center h2 {
-  color: #ffffff;
+  color: #878080;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -61,6 +61,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
+  color: rgb(121, 117, 117);
 }
 
 .newsletter-subtext {
@@ -108,3 +109,80 @@
 .footer-bottom p{
     font-size: 1.2rem;
 }
+
+@media (max-width: 1024px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-left h2 {
+    font-size: 2rem;
+  }
+
+  .footer-left p {
+    font-size: 1.3rem;
+  }
+
+  .footer-center h2 {
+    font-size: 1.4rem;
+  }
+
+  .footer-center ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-left p,
+  .footer-center li,
+  .footer-bottom p {
+    font-size: 1.1rem;
+  }
+
+  .footer-right input {
+    max-width: 260px;
+  }
+
+  .subscribe-btn {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .footer-left h2 {
+    font-size: 1.6rem;
+  }
+
+  .footer-left p {
+    font-size: 1rem;
+  }
+
+  .footer-center h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer-center li {
+    font-size: 1.1rem;
+  }
+
+  .footer-right input {
+    max-width: 220px;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+

@@ -14,7 +14,7 @@ function Navbar() {
 
         <div className="nav-logo">BlueBrick</div>
 
-        <ul>
+        <ul className="nav-list">
           <li>
             <Link to="home" smooth={true} duration={500}>Home</Link>
           </li>

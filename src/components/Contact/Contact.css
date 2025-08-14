@@ -78,3 +78,137 @@ button{
 button:hover {
   background-color: #1d4ed8;
 }
+
+/* ===== Tablets (≤ 1024px) ===== */
+@media (max-width: 1024px) {
+  .contact-heading strong {
+    font-size: 2.2rem;
+  }
+
+  .contact-heading label {
+    font-size: 1.8rem;
+  }
+
+  .contact-heading p {
+    font-size: 1.8rem;
+  }
+
+  .form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* ===== Mobile Landscape / Small Tablets (≤ 768px) ===== */
+@media (max-width: 768px) {
+  .Contact {
+    margin-top: 8%;
+    padding: 0 20px;
+  }
+
+  .contact-heading strong {
+    font-size: 2rem;
+  }
+
+  .contact-heading label {
+    font-size: 1.6rem;
+  }
+
+  .contact-heading p {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .form .text {
+    font-size: 0.95rem;
+  }
+
+  .form .text-reply {
+    font-size: 0.95rem;
+    padding: 8px 12px;
+  }
+
+  .form textarea[placeholder="Message"] {
+    height: 160px;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+/* ===== Mobile Portrait (≤ 480px) ===== */
+@media (max-width: 480px) {
+  .Contact {
+    margin-top: 6%;
+    padding: 0 15px;
+  }
+
+  .contact-heading strong {
+    font-size: 1.8rem;
+  }
+
+  .contact-heading label {
+    font-size: 1.4rem;
+  }
+
+  .contact-heading p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+
+  .form {
+    gap: 10px;
+  }
+
+  .form .text {
+    font-size: 0.9rem;
+  }
+
+  .form .text-reply {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  .form textarea[placeholder="Message"] {
+    height: 140px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    width: 100%;
+  }
+}
+
+/* ===== Extra Small Devices (≤ 360px) ===== */
+@media (max-width: 360px) {
+  .contact-heading strong {
+    font-size: 1.6rem;
+  }
+
+  .contact-heading label {
+    font-size: 1.2rem;
+  }
+
+  .contact-heading p {
+    font-size: 1.1rem;
+  }
+
+  .form .text {
+    font-size: 0.85rem;
+  }
+
+  .form .text-reply {
+    font-size: 0.85rem;
+  }
+
+  button {
+    font-size: 0.85rem;
+  }
+}

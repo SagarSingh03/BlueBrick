@@ -3,11 +3,7 @@
   text-align: center;
   gap: 10px;
   margin-top: 10%;
-}
-
-.project-heading {
-  align-items: center;
-  /* margin-top: 5%; */
+  padding: 0 20px;
 }
 
 .project-heading strong {
@@ -19,48 +15,146 @@
   border-bottom: 2px solid black;
 }
 
-.project-heading p{
+.project-heading p {
   text-align: center;
   font-size: 1.5rem;
-  margin: 0px ;
+  margin: 0px;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.project-cards{
-  display: flex;
-  margin-top: 2.5%;
-  gap: 2.5%;
-  margin: 2.5%;
-  padding: 1.5rem;
-}
-
+/* Arrow buttons */
 .project-arrows {
   display: flex;
-  margin-left: 90%;
+  justify-content: flex-end;
+  align-items: center;
   gap: 10px;
   cursor: pointer;
+  margin: 20px 0;
 }
 
-.project-arrows img{
+.project-arrows img {
   width: 40px;
   height: 40px;
   background-color: rgba(24, 174, 239, 0.1);
-}
-
-.arrow-icon{
+  border-radius: 50%;
   padding: 0.45rem;
-  background-color: rgba(24, 174, 239, 0.1);
+  transition: background-color 0.3s ease;
 }
 
-.project-card{
+.project-arrows img:hover {
+  background-color: rgba(24, 174, 239, 0.2);
+}
+
+/* Horizontal scroll container */
+.project-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.project-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-cards::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.project-card {
+  flex: 0 0 300px;
   height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: transform 0.3s ease;
 }
 
-.property-image{
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.property-image {
   width: 100%;
   height: 350px;
-  border-radius: 10px;
   object-fit: cover;
+}
+
+/* ==================== MEDIA QUERIES ==================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .project-heading strong {
+    font-size: 2.2rem;
+  }
+  .project label {
+    font-size: 2rem;
+  }
+  .project-heading p {
+    font-size: 1.4rem;
+  }
+  .project-card {
+    flex: 0 0 260px;
+    height: 360px;
+  }
+  .property-image {
+    height: 300px;
+  }
+}
+
+/* Mobile Landscape & Small Tablets */
+@media (max-width: 768px) {
+  .project-arrows {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .project-cards {
+    gap: 15px;
+  }
+  .project-card {
+    flex: 0 0 240px;
+    height: 340px;
+  }
+  .property-image {
+    height: 280px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .project {
+    margin-top: 15%;
+    padding: 0 10px;
+  }
+  .project-heading strong {
+    font-size: 1.8rem;
+  }
+  .project label {
+    font-size: 1.6rem;
+  }
+  .project-heading p {
+    font-size: 1.3rem;
+  }
+  .project-card {
+    flex: 0 0 200px;
+    height: 300px;
+  }
+  .property-image {
+    height: 240px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .project-card {
+    flex: 0 0 180px;
+    height: 280px;
+  }
+  .property-image {
+    height: 220px;
+  }
 }

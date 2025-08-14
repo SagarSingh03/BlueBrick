@@ -29,7 +29,7 @@ function Footer() {
           <p className="newsletter-subtext">
             The latest news, articles, and resources, sent to your inbox weekly.
           </p>
-          <input type="email" placeholder="Enter your email" required />
+          <input type="email" placeholder="Enter your email" required/>
           <button className="subscribe-btn">Subscribe</button>
         </div>
       </div>
@@ -44,5 +44,6 @@ function Footer() {
 }
 
 export default Footer;
+
 
 

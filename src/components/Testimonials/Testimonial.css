@@ -26,8 +26,6 @@
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-
-
 .cards-container {
   display: flex;
   justify-content: center;
@@ -62,3 +60,73 @@
 .rating-stars{
   gap: 5px;
 }
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .cards-container {
+    gap: 15px;
+  }
+  .Testimonial-card {
+    max-width: 300px;
+    padding: 15px;
+  }
+  .Testimonial p {
+    font-size: 1.8rem;
+  }
+}
+
+/* For mobile landscape and small tablets */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .Testimonial-card {
+    max-width: 90%;
+  }
+  .Testimonial-heading strong {
+    font-size: 2rem;
+  }
+  .Testimonial label {
+    font-size: 1.6rem;
+  }
+  .Testimonial p {
+    font-size: 1.6rem;
+  }
+}
+
+/* For small mobile screens */
+@media (max-width: 480px) {
+  .Testimonial {
+    padding: 40px 10px;
+  }
+  .Testimonial-heading strong {
+    font-size: 1.8rem;
+  }
+  .Testimonial label {
+    font-size: 1.4rem;
+  }
+  .Testimonial p {
+    font-size: 1.4rem;
+  }
+  .person-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* For extra small devices */
+@media (max-width: 360px) {
+  .Testimonial {
+    padding: 30px 8px;
+  }
+  .Testimonial-card {
+    padding: 12px;
+  }
+  .Testimonial p {
+    font-size: 1.2rem;
+  }
+}
+
+

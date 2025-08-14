@@ -77,7 +77,7 @@ export const projectsData = [
         name: "Shah Rukh Khan",
         title: "Bollywood Superstar",
         image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        alt: "Profile pic of Shah rukh Khan",
         rating: 5,
         text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
     },
@@ -85,17 +85,17 @@ export const projectsData = [
         name: "Hrithik Roshan",
         title: "Actor",
         image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
+        alt: "Portrait of Hrithik Roshan",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "They listened closely to my requirements and matched me with a property beyond my expectations. The smooth process and personal touch really set them apart."
     },
     {
         name: "Elon Musk",
         title: "Entreprenuer",
         image: profile_img_3,
-        alt: "Portrait of James Washington",
+        alt: "Portrait of Elon Musk",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Working with them was a game-changer. They quickly understood my needs and found the perfect property. Their professionalism and care made the whole process stress-free."
     }
 ];
 

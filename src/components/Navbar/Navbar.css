@@ -91,4 +91,20 @@ ul li a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 820px){
+  .Navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+ .nav-list{
+  flex-direction: column;
+  gap: 25px;
+ }
+
+ .background{
+  margin-top: 150px;
+ }
+
+}
 

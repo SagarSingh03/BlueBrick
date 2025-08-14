@@ -70,4 +70,22 @@
   margin-bottom: 15px;
 }
 
+@media (max-width: 1207px){
+  .about-heading{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .about-heading label{
+    font-size: 2rem;
+  }
+
+  .about-left img{
+    width: 100%;
+    max-width: 200px;
+  }
+  .about-right{
+    margin-top: 10px;
+    text-align: center;
+  }
+}
