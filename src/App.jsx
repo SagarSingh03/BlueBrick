@@ -8,6 +8,7 @@ import Header from './components/Home/Header'
 import Project from './components/Projects/Project'
 import Testimonial from './components/Testimonials/Testimonial'
 import { Element } from 'react-scroll'
+import Signup from './components/Signup/Signup'
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
       <Element name="contact">
         <Contact />
       </Element>
-
+      
       <Footer />
     </div>
   )

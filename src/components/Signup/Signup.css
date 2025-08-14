@@ -1,0 +1,67 @@
+.signup-container{
+  background-color: rgb(233, 115, 12);
+  text-align: center;
+}
+
+.logo h2{
+font-size: 2rem;
+color: rgb(231, 225, 225)
+}
+
+.logo h1{
+  font-size: 4rem;
+  color:rgb(233, 224, 224);
+}
+
+.signup-container form input{
+  width: 80%;
+  height: 35px;
+  padding: 10px 10px;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.social-login{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.eye-icon{
+  position: absolute;
+  left: 455px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: gray;
+}
+
+.social-btn-fb{
+  background-color: rgb(216, 51, 14);
+}
+
+.social-btn-google{
+  background-color: #e7b81d;
+}
+
+.social-btn-insta{
+  background-color: rgb(238, 64, 238);
+}
+
+.signin-link{
+  font-size: 1.5rem;
+}
+
+.divider hr{
+  display: flex;
+  width: 75%;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  font-size: 0.9rem;
+  margin: 10px;
+  margin-left: 65px;
+}
