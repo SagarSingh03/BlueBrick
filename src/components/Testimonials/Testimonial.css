@@ -6,7 +6,6 @@
   background-color: #f9f9f9;
   text-align: center;
   margin-top: 10%;
-
 }
 
 .Testimonial-heading strong {
@@ -32,7 +31,7 @@
   margin-top: 5%;
   flex-wrap: wrap;
   gap: 20px;
-
+  animation: slideInRight 3s ease-out forwards;
 }
 
 .Testimonial-card {
@@ -61,7 +60,19 @@
   gap: 5px;
 }
 
-/* For tablets and smaller desktops */
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
 @media (max-width: 1024px) {
   .cards-container {
     gap: 15px;
@@ -116,7 +127,7 @@
   }
 }
 
-/* For extra small devices */
+
 @media (max-width: 360px) {
   .Testimonial {
     padding: 30px 8px;

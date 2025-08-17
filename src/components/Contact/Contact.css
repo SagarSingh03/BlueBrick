@@ -79,7 +79,7 @@ button:hover {
   background-color: #1d4ed8;
 }
 
-/* ===== Tablets (≤ 1024px) ===== */
+
 @media (max-width: 1024px) {
   .contact-heading strong {
     font-size: 2.2rem;
@@ -99,7 +99,7 @@ button:hover {
   }
 }
 
-/* ===== Mobile Landscape / Small Tablets (≤ 768px) ===== */
+
 @media (max-width: 768px) {
   .Contact {
     margin-top: 8%;
@@ -142,7 +142,7 @@ button:hover {
   }
 }
 
-/* ===== Mobile Portrait (≤ 480px) ===== */
+
 @media (max-width: 480px) {
   .Contact {
     margin-top: 6%;
@@ -186,7 +186,7 @@ button:hover {
   }
 }
 
-/* ===== Extra Small Devices (≤ 360px) ===== */
+
 @media (max-width: 360px) {
   .contact-heading strong {
     font-size: 1.6rem;
