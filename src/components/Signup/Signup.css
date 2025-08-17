@@ -1,67 +1,149 @@
-.signup-container{
-  background-color: rgb(233, 115, 12);
+/* ---------------- CONTAINER ---------------- */
+.signup-container {
+  background-color: #4E342E;  /* deep coffee brown */
   text-align: center;
-}
-
-.logo h2{
-font-size: 2rem;
-color: rgb(231, 225, 225)
-}
-
-.logo h1{
-  font-size: 4rem;
-  color:rgb(233, 224, 224);
-}
-
-.signup-container form input{
-  width: 80%;
-  height: 35px;
-  padding: 10px 10px;
-  font-size: 1.1rem;
-  border: 1px solid black;
-  border-radius: 8px;
-  margin: 10px auto;
-}
-
-.social-login{
+  font-family: Arial, sans-serif;
+  padding: 40px 0;
+  min-height: 100vh;
   display: flex;
-  gap: 10px;
   justify-content: center;
+  align-items: center;
+}
+
+/* ---------------- FORM CARD ---------------- */
+.singup-form {
+  background-color: #ffffff; /* white card */
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------- LOGO ---------------- */
+.logo h2 {
+  font-size: 1.4rem;
+  color: #8D6E63; /* warm light brown */
+  margin-bottom: 8px;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: #3E2723; /* dark chocolate */
   margin-bottom: 20px;
 }
 
-.eye-icon{
+/* ---------------- FORM ---------------- */
+.singup-form form input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #BCAAA4; /* light brown border */
+  border-radius: 6px;
+  margin: 10px 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.singup-form form input:focus {
+  border-color: #795548; /* medium brown highlight */
+}
+
+/* password input wrapper */
+.password-input {
+  position: relative;
+}
+
+.eye-icon {
   position: absolute;
-  left: 455px;
-  margin-top: 25px;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: gray;
 }
 
-.social-btn-fb{
-  background-color: rgb(216, 51, 14);
+/* ---------------- BUTTONS ---------------- */
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
-.social-btn-google{
-  background-color: #e7b81d;
+.btn-primary {
+  background-color: #795548; /* medium brown */
+  color: white;
 }
 
-.social-btn-insta{
-  background-color: rgb(238, 64, 238);
+.btn-primary:hover {
+  background-color: #17b4df; /* darker brown */
 }
 
-.signin-link{
-  font-size: 1.5rem;
-}
-
-.divider hr{
+.social-login {
   display: flex;
-  width: 75%;
-  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-btn-fb {
+  background-color: #6D4C41; /* coffee brown */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+.social-btn-google {
+  background-color: #A1887F; /* taupe brown */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+.social-btn-insta {
+  background-color: #8D6E63; /* warm brown */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+/* ---------------- DIVIDER ---------------- */
+.divider {
+  margin: 20px 0;
   text-align: center;
-  color: gray;
+}
+
+.divider span {
+  display: block;
   font-size: 0.9rem;
-  margin: 10px;
-  margin-left: 65px;
+  color: #6D4C41; /* coffee brown */
+  margin-bottom: 8px;
+}
+
+.divider hr {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #BCAAA4;
+}
+
+/* ---------------- SIGN IN LINK ---------------- */
+.signin-link {
+  font-size: 0.95rem;
+  color: #4E342E;
+}
+
+.signin-link a {
+  color: #795548;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
 }

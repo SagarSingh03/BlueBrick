@@ -24,8 +24,9 @@ p{
  .button{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    /* gap: 16px; */
+    gap: 16px;
+    width: 550px;
+    margin-left: 500px;
 }
 
 .projects{
@@ -58,13 +59,23 @@ p{
     p{
         font-size: 2.5rem;
     }
-    .button{
-        display: flex;
-        flex-direction: column;
-    }
+    
+    .button {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .button button {
+    width: 90%;
+    max-width: 280px;
+    font-size: 1.1rem;
+  }
     
     .projects{
-        background-color: orange;
+        background-color: rgb(218, 72, 46);
     }
 }
 
