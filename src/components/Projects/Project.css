@@ -23,7 +23,7 @@
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-/* Arrow buttons */
+
 .project-arrows {
   display: flex;
   justify-content: flex-end;
@@ -47,19 +47,19 @@
   transform: scale(1.1);
 }
 
-/* Horizontal scroll container */
+
 .project-cards {
   display: flex;
   gap: 70px;
   overflow-x: auto;
-  overflow-y: hidden;   /* avoid vertical scroll */
+  overflow-y: hidden;   
   scroll-behavior: smooth;
   padding-bottom: 10px;
   scrollbar-width: none; 
 }
 
 .project-card {
-  flex: 0 0 300px;      /* <-- fixed width so scrollBy works */
+  flex: 0 0 300px;      
   height: 450px;
   background: hsl(203, 48%, 84%);
   border-radius: 10px;
@@ -78,9 +78,9 @@
   object-fit: cover;
 }
 
-/* ==================== MEDIA QUERIES ==================== */
 
-/* Tablets */
+
+
 @media (max-width: 1024px) {
   .project-heading strong {
     font-size: 2.2rem;
@@ -100,7 +100,7 @@
   }
 }
 
-/* Mobile Landscape & Small Tablets */
+
 @media (max-width: 768px) {
   .project-arrows {
     justify-content: center;
@@ -118,7 +118,7 @@
   }
 }
 
-/* Mobile Portrait */
+
 @media (max-width: 480px) {
   .project {
     margin-top: 15%;
@@ -142,7 +142,7 @@
   }
 }
 
-/* Extra Small Devices */
+
 @media (max-width: 360px) {
   .project-card {
     flex: 0 0 180px;

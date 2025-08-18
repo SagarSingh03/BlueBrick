@@ -10,7 +10,7 @@
   animation: slideInLeft 3s ease-out forwards;
 }
 
-/* Left Side */
+
 .about-left {
   flex: 1;
   min-width: 300px;
@@ -25,7 +25,7 @@
 
 }
 
-/* Right Side */
+
 .about-right {
   flex: 1;
   min-width: 300px;
@@ -34,7 +34,7 @@
   gap: 20px;
 }
 
-/* Headings */
+
 .about-heading strong {
   font-size: 2rem;
   color: #2c3e50;
@@ -50,7 +50,7 @@
   color: rgb(17, 112, 246);
 }
 
-/* Stats */
+
 .stats strong {
   font-size: 2rem;
   color: #0077ff;
@@ -63,7 +63,7 @@
   margin-bottom: 15px;
 }
 
-/* Paragraphs */
+
 .paras p {
   font-size: 1.2rem;
   line-height: 1.6;

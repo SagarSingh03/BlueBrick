@@ -4,7 +4,6 @@
     animation: slideInBottom 3s ease-out forwards;
 }
 
-/* Heading */
 .header h1 {
     margin-bottom: 8px;
     font-size: 4rem;
@@ -12,14 +11,14 @@
     
 }
 
-/* Paragraph */
+
 .header p {
     margin-top: 0;
     font-size: 5rem;
     color: #f6f4f4;
 }
 
-/* Buttons */
+
 .button {
     display: flex;
     justify-content: center;
@@ -28,6 +27,13 @@
     margin-left: 500px;
 }
 
+.projects:hover{
+    background-color: rgb(56, 151, 211);
+}
+
+.contact:hover{
+    background-color: rgb(38, 127, 229);
+}
 .projects {
     background-color: transparent;
     font-size: 2rem;

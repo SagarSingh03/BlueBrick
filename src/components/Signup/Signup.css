@@ -1,6 +1,6 @@
-/* ---------------- CONTAINER ---------------- */
+
 .signup-container {
-  background-color: #4E342E;  /* deep coffee brown */
+  background-color: #4E342E;  
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 40px 0;
@@ -10,35 +10,34 @@
   align-items: center;
 }
 
-/* ---------------- FORM CARD ---------------- */
+
 .singup-form {
-  background-color: #ffffff; /* white card */
+  background-color: #ffffff; 
   padding: 30px 40px;
   border-radius: 12px;
   width: 400px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ---------------- LOGO ---------------- */
+
 .logo h2 {
   font-size: 1.4rem;
-  color: #8D6E63; /* warm light brown */
+  color: #8D6E63; 
   margin-bottom: 8px;
 }
 
 .logo h1 {
   font-size: 2rem;
-  color: #3E2723; /* dark chocolate */
+  color: #3E2723; 
   margin-bottom: 20px;
 }
 
-/* ---------------- FORM ---------------- */
 .singup-form form input {
   width: 100%;
   height: 40px;
   padding: 8px 12px;
   font-size: 1rem;
-  border: 1px solid #BCAAA4; /* light brown border */
+  border: 1px solid #BCAAA4;
   border-radius: 6px;
   margin: 10px 0;
   outline: none;
@@ -46,7 +45,7 @@
 }
 
 .singup-form form input:focus {
-  border-color: #795548; /* medium brown highlight */
+  border-color: #795548; 
 }
 
 /* password input wrapper */
@@ -64,7 +63,7 @@
   color: gray;
 }
 
-/* ---------------- BUTTONS ---------------- */
+
 button {
   font-size: 1rem;
   padding: 10px 20px;
@@ -77,12 +76,12 @@ button {
 }
 
 .btn-primary {
-  background-color: #795548; /* medium brown */
+  background-color: #795548; 
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #17b4df; /* darker brown */
+  background-color: #17b4df;
 }
 
 .social-login {
@@ -93,27 +92,27 @@ button {
 }
 
 .social-btn-fb {
-  background-color: #6D4C41; /* coffee brown */
+  background-color: #6D4C41; 
   color: white;
   padding: 8px 15px;
   border-radius: 6px;
 }
 
 .social-btn-google {
-  background-color: #A1887F; /* taupe brown */
+  background-color: #A1887F;
   color: white;
   padding: 8px 15px;
   border-radius: 6px;
 }
 
 .social-btn-insta {
-  background-color: #8D6E63; /* warm brown */
+  background-color: #8D6E63; 
   color: white;
   padding: 8px 15px;
   border-radius: 6px;
 }
 
-/* ---------------- DIVIDER ---------------- */
+
 .divider {
   margin: 20px 0;
   text-align: center;
@@ -122,7 +121,7 @@ button {
 .divider span {
   display: block;
   font-size: 0.9rem;
-  color: #6D4C41; /* coffee brown */
+  color: #6D4C41; 
   margin-bottom: 8px;
 }
 
@@ -132,7 +131,7 @@ button {
   border: 1px solid #BCAAA4;
 }
 
-/* ---------------- SIGN IN LINK ---------------- */
+
 .signin-link {
   font-size: 0.95rem;
   color: #4E342E;

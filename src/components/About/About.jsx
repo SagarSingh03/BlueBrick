@@ -5,12 +5,12 @@ import about from '../../assets/about.png';
 function About() {
   return (
     <div className="about">
-      {/* Left Side - Image */}
+    
       <div className="about-left">
         <img src={about} className="brand" alt="About BlueBrick" />
       </div>
 
-      {/* Right Side - Text */}
+    
       <div className="about-right">
         <div className="about-heading">
           <strong>About</strong>
