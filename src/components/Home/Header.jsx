@@ -1,5 +1,6 @@
 import React from 'react'
-import './Header.css';
+import './Header.css'
+import { Link } from 'react-scroll'
 
 function Header() {
     return (
@@ -8,16 +9,29 @@ function Header() {
             <p>That match Your Style</p>
 
             <div className="button">
-                <button className="projects">Projects</button>
-                <button className="contact">Contact Us</button>
-            </div>
+                <Link 
+                  to="projects" 
+                  smooth={true} 
+                  duration={500} 
+                  className="projects"
+                >
+                  Projects
+                </Link>
 
+                <Link 
+                  to="contact" 
+                  smooth={true} 
+                  duration={500} 
+                  className="contact"
+                >
+                  Contact Us
+                </Link>
+            </div>
         </div>
     )
 }
 
 export default Header
-
 
 
 

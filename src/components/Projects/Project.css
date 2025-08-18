@@ -29,45 +29,39 @@
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
-  cursor: pointer;
   margin: 20px 0;
 }
 
-.project-arrows img {
+.arrow-icon {
   width: 40px;
   height: 40px;
   background-color: rgba(24, 174, 239, 0.1);
   border-radius: 50%;
   padding: 0.45rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
 }
 
-.project-arrows img:hover {
+.arrow-icon:hover {
   background-color: rgba(24, 174, 239, 0.2);
+  transform: scale(1.1);
 }
 
 /* Horizontal scroll container */
 .project-cards {
   display: flex;
-  gap: 20px;
+  gap: 70px;
   overflow-x: auto;
+  overflow-y: hidden;   /* avoid vertical scroll */
   scroll-behavior: smooth;
   padding-bottom: 10px;
-}
-
-.project-cards::-webkit-scrollbar {
-  height: 8px;
-}
-
-.project-cards::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
+  scrollbar-width: none; 
 }
 
 .project-card {
-  flex: 0 0 300px;
-  height: 400px;
-  background: #fff;
+  flex: 0 0 300px;      /* <-- fixed width so scrollBy works */
+  height: 450px;
+  background: hsl(203, 48%, 84%);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;

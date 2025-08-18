@@ -6,14 +6,14 @@ import right_arrow from '../../assets/right_arrow.svg';
 
 
 function Project() {
-  const scrollRef = useRef();
+  const scrollRef = useRef(null);
 
   const handleLeftArrowClick = () => {
-    scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+    scrollRef.current.scrollBy({ left: -320, behavior: 'smooth' });
   };
 
   const handleRightArrowClick = () => {
-    scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+    scrollRef.current.scrollBy({ left: 320, behavior: 'smooth' });
   };
   return (
     <div className="project">
@@ -29,9 +29,9 @@ function Project() {
         <img src={right_arrow} alt="right-arrow" className="arrow-icon" onClick={handleRightArrowClick} />
       </div>
 
-      <div className="project-cards">
-        {projectsData.map((item) => (
-          <div className="project-card" >
+      <div className="project-cards" ref={scrollRef}>
+        {projectsData.map((item , index) => (
+          <div className="project-card"  key={index}>
             <img src={item.image} alt={item.alt} className="property-image" />
             <h3>{item.title}</h3>
             <h3>{item.price}  | {item.location} </h3>
@@ -42,6 +42,7 @@ function Project() {
   )
 }
 export default Project
+
 
 
 
