@@ -1,15 +1,21 @@
 <<<<<<< HEAD
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏢 BlueBrick – Real Estate Website  
 
-Currently, two official plugins are available:
+**BlueBrick** is a modern, responsive **real estate website** built with **React (JSX), Vite, Material UI (MUI), and CSS**.  
+It showcases real estate listings, property details, and a clean user interface to explore and connect with potential buyers or renters.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- 📱 **Responsive Design** – works on mobile, tablet, and desktop  
+- 🏠 Browse featured properties with details  
+- 🎨 Beautiful and consistent UI with **Material UI (MUI)**  
+- ⚡ Powered by **Vite** for fast development & optimized build  
+- 🔀 Easy navigation between pages (React Router compatible)  
+- 💡 Clean and reusable component structure  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
+---
 
+## 📂 Project Structure
